@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebSocket Counter with Subscriptions</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; padding: 20px; }
+        #counter { font-size: 2em; margin: 20px 0; }
+        button, select { padding: 10px 20px; margin: 0 5px; }
+    </style>
+</head>
+<body>
+    <h1>Collaborative Counter with Subscriptions</h1>
+    <label for="channel">Select Counter:</label>
+    <select id="channel">
+        <option value="counterA">Counter A</option>
+        <option value="counterB">Counter B</option>
+    </select>
+    <button id="subscribe">Subscribe</button>
+    <div id="counter">Not subscribed</div>
+    <button id="increment">+1</button>
+    <button id="decrement">-1</button>
+    <script src="client.js"></script>
+</body>
+</html>
