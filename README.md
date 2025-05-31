@@ -2,16 +2,16 @@
 A proof-of-concept demonstrating real-time collaborative counter updates using WebSockets with a subscription model. Clients can subscribe to one of two counters (counterA or counterB) and receive updates only for their chosen counter. Built with Node.js, the ws library, and Express.
 
 ✨ Features
-# Real-time Counter Synchronization: Updates are reflected instantly for subscribed clients.
-# Subscription Model: Clients can choose to receive updates for either counterA or counterB.
-# Interactive Web Interface: Includes a dropdown to select and subscribe to a counter, with buttons to increment (+1) or decrement (-1) the counter.
-# Efficient Broadcasting: The WebSocket server sends updates only to clients subscribed to the relevant counter.
+Real-time Counter Synchronization: Updates are reflected instantly for subscribed clients.
+Subscription Model: Clients can choose to receive updates for either counterA or counterB.
+Interactive Web Interface: Includes a dropdown to select and subscribe to a counter, with buttons to increment (+1) or decrement (-1) the counter.
+Efficient Broadcasting: The WebSocket server sends updates only to clients subscribed to the relevant counter.
 
 🛠️ **Technologies**
-# Node.js: Server-side runtime environment.
-# WebSocket (ws): Library for implementing the WebSocket server.
-# Express: Serves the static HTML/JavaScript client.
-# JavaScript/HTML: Handles client-side logic and the user interface.
+Node.js: Server-side runtime environment.
+WebSocket (ws): Library for implementing the WebSocket server.
+Express: Serves the static HTML/JavaScript client.
+JavaScript/HTML: Handles client-side logic and the user interface.
 
 📋 **Prerequisites**
 Before you begin, ensure you have the following:
