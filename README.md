@@ -1,7 +1,7 @@
 **WebSocket Collaborative Counter PoC with Subscriptions**
 A proof-of-concept demonstrating real-time collaborative counter updates using WebSockets with a subscription model. Clients can subscribe to one of two counters (counterA or counterB) and receive updates only for their chosen counter. Built with Node.js, the ws library, and Express.
 
-✨ Features
+✨ **Features**
 Real-time Counter Synchronization: Updates are reflected instantly for subscribed clients.
 Subscription Model: Clients can choose to receive updates for either counterA or counterB.
 Interactive Web Interface: Includes a dropdown to select and subscribe to a counter, with buttons to increment (+1) or decrement (-1) the counter.
